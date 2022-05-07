@@ -27,8 +27,12 @@ _templates
 package-lock.json
 .vscode/symbols.json
 
-apps/static/assets/node_modules
+apps/static/assets/node_module
+s
 apps/static/assets/yarn.lock
 apps/static/assets/.temp
 
 *.sqlite
+
+```bash > $env:FLASK_APP = "application" > $env:FLASK_ENV = "development" ```
+```bash $ pip install -r requirements.txt ```
